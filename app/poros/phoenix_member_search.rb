@@ -14,7 +14,7 @@ class PhoenixMemberSearch
       Member.new(member_data)
     end
   end
-  
+
   private
 
   attr_reader :house

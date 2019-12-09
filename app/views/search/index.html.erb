@@ -1,9 +1,9 @@
 <h1><%= search_results.member_count %> Results</h1>
 <% search_results.members.each do |member| %>
   <ul class="member">
-    <li class="name"><%= member.name %></li>
-    <li class="role"><%= member.role %></li>
-    <li class="house"><%= member.house %></li>
-    <li class="patronus"><%= member.patronus %></li>
+    <li class="name">Name: <%= member.name %></li>
+    <li class="role">Role: <%= member.role %></li>
+    <li class="house">House: <%= member.house %></li>
+    <li class="patronus">Patronus: <%= member.patronus %></li>
   </ul>
 <% end %>
