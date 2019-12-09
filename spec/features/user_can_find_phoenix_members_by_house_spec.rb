@@ -22,7 +22,7 @@ feature "user can find phoenix members by house" do
 
     expect(page).to have_content("21 Results")
 
-    expect(page).to have_css(".member", count: 7)
+    expect(page).to have_css(".member", count: 21)
 
     within(first(".member")) do
       expect(page).to have_css(".name")
